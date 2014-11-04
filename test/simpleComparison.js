@@ -7,6 +7,4 @@ test('simple comparisons', function (t) {
     var n = maxBy([9,3,4], function (x) { return x % 3 });
     t.equal(n, 4);
 
-    var soma = 4 + 10;
-    t.qual(soma, 14);
 });
